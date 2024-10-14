@@ -1,0 +1,1 @@
+select count(*) as records, MAX(created_at) as max_crt_dttm from warehouse_db.inventory_movements;
