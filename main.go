@@ -10,7 +10,7 @@ import (
 
 func main() {
 
-	db, err := sql.Open("mysql", "root:Manson015@tcp(127.0.0.1:3306)/warehouse_db")
+	db, err := sql.Open("mysql", "root:PASSWORD@tcp(127.0.0.1:3306)/warehouse_db")
 	if err != nil {
 		fmt.Printf("Error connecting to database: %v\n", err)
 		return
